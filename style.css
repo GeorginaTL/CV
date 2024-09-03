@@ -1,0 +1,95 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seccion{
+    padding-top: 10pt;
+}
+#presentacion{
+    margin-top: 10pt;
+}
+hr {/*esto cambia el color y grosor de la linea
+    border: none; /* Elimina el borde predeterminado */
+    height: 2px;  /* Define el grosor de la línea */
+    background-color: #060080; /* Cambia el color de la línea */
+    margin: 5px 0; /* Añade margen arriba y abajo */
+}
+.linea-solida {
+    border: none;
+    height: 2px;
+    background-color: #000;
+}
+.linea-punteada {
+    border: none;
+    border-top: 2px dotted #000; /* Línea punteada */
+}
+.linea-rayada {
+    border: none;
+    border-top: 2px dashed #000; /* Línea rayada */
+}
+.ancho-50 {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    width: 50%; /* Ajusta el ancho de la línea */
+    margin: 20px auto; /* Centra la línea horizontalmente */
+}
+.alinear-derecha {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    width: 80%; /* Ajusta el ancho de la línea */
+    margin: 20px 0;
+    float: right; /* Alinea la línea a la derecha */
+}
+.sombra {
+    border: none;
+    height: 4px;
+    background-color: #060080;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
+    margin: 20px 0;
+}
+.degradado {
+    border: none;
+    height: 5px;
+    background: linear-gradient(to right, #060080, #7500a7); /* Aplica un degradado */
+    margin: 20px 0;
+}
+.linea-doble {
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 5px double #000; /* Crea una línea doble */
+    margin: 20px 0; /* Añade margen arriba y abajo */
+}
+.linea-punteada {
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 2px dotted #000; /* Crea una línea punteada */
+    margin: 20px 0; /* Añade margen arriba y abajo */
+}
+.linea-rayada {
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 2px dashed #000; /* Crea una línea rayada */
+    margin: 20px 0; /* Añade margen arriba y abajo */
+}
+.linea-personalizada {
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 3px double transparent; /* Crea el espacio para el borde doble */
+    background: linear-gradient(to right, transparent 50%, #000 50%) no-repeat; /* Agrega una línea punteada sobre el borde doble */
+    background-size: 10px 1px; /* Define el tamaño del patrón punteado */
+    margin: 20px 0; /* Añade margen arriba y abajo */
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.izquierda, .derecha {
+    /* Estilo opcional para los spans si es necesario */
+}
+.azul{
+    color:#060080;
+}
+.sub{
+    text-decoration: underline;
+}
